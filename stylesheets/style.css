@@ -62,17 +62,21 @@ nav a {
 }
 
 #main {
-  background: url('../images/folio.png') no-repeat fixed;
+  background: url('../images/home.png') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
 
-/*  background-image: url('../images/landing-page.png')no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
+img.name-heading {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  opacity: 0.5;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
@@ -94,18 +98,14 @@ nav a {
   background-size: cover;
 }
 
-.letschat h1 {
-  width: 300px;
-  height: 300px;
+.letschat img {
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
-  font-size: 31px;
-  color: #fff;
-  line-height: 313px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.5);
+  opacity: 0.5;
+  display:block;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 40px;
 }
 
 #form-main {
