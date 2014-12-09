@@ -5,42 +5,40 @@ nav ul li {
 
 h1 {
   margin: 0;
+  text-align: center;
 }
 
 img.box {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   line-height: 100px;
   border-radius: 100%;
   padding: 10px;
 }
 
-.projects-display-animal {
+.projects-display-shop, .projects-display-blog, .projects-display-animal {
   height: 100%;
-  width: 450px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 550px; 
 }
 
-.projects-display-shop {
-  height: 100%;
-  width: 450px;
-  margin-left: auto;
-  margin-right: auto;
+.col-sm-4 h2 {
+  padding-top: 46px;
+  padding-left: 88px;
 }
 
-/*.projects-display-blog {
-  height: 100%;
-  width:100px;
-  margin-left: auto;
-  margin-right: auto;
-}*/
-
+.col-sm-4 p {
+  padding-left: 88px;
+}
 
 #main, #projects, #about, #contact {
   width: 100%;
   min-height: 100vh;
   max-height: 100%;
+  padding-top: 55px;
+}
+
+#contact {
+  padding-top: 75px;
 }
 
 nav {
@@ -54,17 +52,30 @@ nav {
   background-color: rgba(255,255,255,0.5);
 }
 
+a:link {
+    color: #9D9D9D;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
 li a.nav-my-name {
   position: fixed;
-  top: -8px;
+  top: -7px;
   left: 24px;
-/*  display: inline-block;
-  float: left;*/
   letter-spacing: 2px;
   color: #9D9D9D;
   text-decoration: none;
   text-align: center;
-/*  border-bottom: 5px solid #9D9D9D;*/
   font-size: 25px;
   font-family: "HelveticaNeue-Regular", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding-top: 15px;
@@ -128,8 +139,21 @@ img.name-heading {
   text-align: justify;
 }
 
+div.row section.col-sm-12.about-me {
+  max-width: 1334px;
+}
+
 #projects {
   background-color: white;
+}
+
+a.btn.btn-default.btn-large {
+  background-color: none;
+  margin-left: 85px;
+}
+
+#projects div section div p {
+  border-bottom: 1px black solid;
 }
 
 #contact {
@@ -172,6 +196,13 @@ textarea#comment {
   width:400px;
   border-radius: 5px;
   border: none;
+}
+
+.contact-images img {
+  width: 100px;
+  height:100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

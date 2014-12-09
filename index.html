@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Angela Mikulasev</title>
-    <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="stylesheets/normalize.css" rel="stylesheet" type="text/css" /> -->
     <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -35,21 +35,6 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
-
-
-
-<!--           <ul>
-            <li><a class="nav-my-name" href="#main">ANGELA MIKULASEV</a></li>
-          </ul> -->
-<!--       <nav>
-        <ul>
-          <li class="nav-my-name"><a href="#main">ANGELA MIKULASEV</a></li>
-          <li class="nav-info"><a href="#about">About</a></li>
-          <li class="nav-info"><a href="#projects">Projects</a></li>
-          <li class="nav-info"><a href="#contact">Contact</a></li>
-        </ul>
-      </nav> -->
     </header>
 
     <section id="main">
@@ -57,6 +42,32 @@
     </section>
 
     <section id="about">
+      <div class="row">
+        <section class="col-sm-12 about-me">
+          <div class="col-sm-5 col-sm-offset-2">
+            <h2>A bit about myself...</h2></br>
+            <p>Hello! My name is Angela Mikulasev and I'm a full-stack web developer. I have a passion for innovative technologies and rails web applications. I’m seeking a role where I can learn and grow as a back-end web developer.</p>
+
+            <p> I have recently gradutated from General Assembly's Web Deveopment Immersive Course in Sydney. Prior to completing the course, I studied Graphic Design and Style Visualisation. I have a love for technology and want to continue to contribute to the movement of the future.</p>
+
+            <p>Web Development fulfills my desire to be creative, yet also adheres to my problem solving side. What more could I ask for?</p>      
+          </div>  
+          <div class="col-sm-5">
+              <img src='images/html5.svg' class='box'>
+              <img src='images/css.svg' class='box'>
+              <img src='images/bootstrap.svg' class='box'>
+              <img src='images/github.svg' class='box'>
+              <img src='images/ruby.svg' class='box'>
+              <img src='images/js.svg' class='box'>
+              <img src='images/jquery.svg' class='box'>
+              <img src='images/backbone.png' class='box'>
+              <img src='images/rspec.png' class='box'>
+          </div>
+        </section>
+      </div>
+    </section>
+
+<!--     <section id="about">
       <h1>About Me</h1>
       <div class="col-md-5">
         <p>Hello! My name is Angela Mikulasev and I'm a full-stack web developer. I have a passion for innovative technologies and rails web applications. I’m seeking a role where I can learn and grow as a back-end web developer.</p>
@@ -79,15 +90,51 @@
             <img src='images/backbone.png' class='box'>
             <img src='images/rspec.png' class='box'>
           </div>
-      </section>
+      </section> -->
     </section>
 
     <section id="projects">
-      <h1>Projects</h1>
-      <img src="images/animalproject.png" class="projects-display-animal">
-      <img src="images/sydneysister1.png" class="projects-display-shop">
-      <img src="images/blog.png" class="projects-display-blog">
+    <h1>Projects</h1>
+    <div class="row">
+      <section class="col-sm-12">
+        <div class="col-sm-4 col-sm-offset-2 project-text">
+          <h2>Sydney Sister</h2></br>
+          <p>Sydney Sister is an e-commerce women's fashion store built using Ruby on Rails. Features include welcome email upon sign up, shopping cart, and placing an order using Stripe.</p>
+          <a href="sydneysister.herokuapp.com" role="button" class="btn btn-default btn-large">Check it Out!</a> 
+        </div>  
+        <div class="col-sm-4">
+          <img src="images/sydneysister1.png" class="projects-display-shop">
+        </div>
+      </section>
+    </div>
 
+    <div class="row">
+      <section class="col-sm-12">
+        <div class="col-sm-4 col-sm-offset-2 col-sm-push-4">
+          <h2>Animal Rescue</h2></br>
+          <p>Animal Rescue allows cats and dogs to be surrendered and rehomed using Ruby on Rails, RSpec and RSpec Cabybara, Bcrypt, Haml, Bootstrap Carrierwave, and AWS.</p>
+          <a href="animalrescue.herokuapp.com" role="button" class="btn btn-default btn-large">Check it Out!</a>  
+        </div>  
+        <div class="col-sm-4 col-sm-pull-4">
+          <img src="images/animalproject.png" class="projects-display-shop">
+        </div>
+      </section>
+    </div>
+
+    <div class="row">
+      <section class="col-sm-12">
+        <div class="col-sm-4 col-sm-offset-2 project-text">
+          <h2>Travel Trax</h2></br>
+          <p>Travel Trax is a Ruby on Rails web application built to help you keep track of your travels, whether it be a daily adventure or a trip across the world. Add your country, add as many blog posts as you like and don't forget to locate them. Features include Geocoder, Geocomplete, Bootstrap and Bcrypt.</p>
+          <a href="traveltrax.herokuapp.com" class="btn btn-default btn-lg active" role="button">Check it Out!</a>
+<!--           <button type="button" class="btn btn-default" a href="traveltrax.herokuapp.com">
+          <a href="traveltrax.herokuapp.com" role="button" class="btn btn-default btn-large">Check it Out!</a>  -->
+        </div>  
+        <div class="col-sm-4">
+          <img src="images/blog.png" class="projects-display-shop">
+        </div>
+      </section>
+    </div>
     </section>
 
     <section id="contact">
@@ -117,6 +164,10 @@
               </div>
             </form>
           </div>
+        </div>
+        <div class="contact-images">
+          <img src='images/linkedin.png'>
+          <img src='images/github.png'>
         </div>
     </section>
 
