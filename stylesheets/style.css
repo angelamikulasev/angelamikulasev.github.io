@@ -1,3 +1,5 @@
+$navbar-default-link-active-color: black;
+
 nav ul li {
   display: inline;
   list-style: none;
@@ -14,6 +16,9 @@ img.box {
   line-height: 100px;
   border-radius: 100%;
   padding: 10px;
+  display:inline-block;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 .projects-display-shop, .projects-display-blog, .projects-display-animal {
@@ -104,11 +109,8 @@ ul.nav.navbar-nav {
   right: 5px;
 }
 
-.navbar.navbar-inverse.navbar-fixed-top {
-  background-image: none;
-  border-color: rgba(0, 0, 0, 0.5);
-  background-color: none;
-  border-color: none;
+.navbar.navbar-default.navbar-fixed-top {
+  background-color: blue;
 }
 
 #main {
@@ -132,6 +134,19 @@ img.name-heading {
   transform: translate(-50%, -50%);
 }
 
+img.about-heading {
+    width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  opacity: 0.5;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#about {
+  background-color: rgb(216, 222, 195)
+}
 
 #about p{
   border-bottom: 1px black solid;
@@ -147,9 +162,13 @@ div.row section.col-sm-12.about-me {
   background-color: white;
 }
 
-a.btn.btn-default.btn-large {
-  background-color: none;
+.view-project a {
+  color: black;
   margin-left: 85px;
+  margin-top: 15px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 #projects div section div p {
@@ -157,7 +176,7 @@ a.btn.btn-default.btn-large {
 }
 
 #contact {
-  background: url('../images/forest.png');
+  background: url('../images/home.png') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -165,8 +184,8 @@ a.btn.btn-default.btn-large {
 }
 
 .letschat img {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   opacity: 0.5;
   display:block;
@@ -198,11 +217,18 @@ textarea#comment {
   border: none;
 }
 
-.contact-images img {
-  width: 100px;
-  height:100%;
-  margin-left: auto;
-  margin-right: auto;
+.contact-icons article {
+    text-align: center;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.contact-icons {
+margin-left: 223px;
+margin-top: 50px;
+color: white;
+letter-spacing: 1.5px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 
