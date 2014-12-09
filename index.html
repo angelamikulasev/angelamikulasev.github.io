@@ -12,14 +12,44 @@
 
   <body>
     <header>
-      <nav>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <ul>
+            <li><a class="nav-my-name" href="#main">ANGELA MIKULASEV</a></li>
+          </ul>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
         <ul>
-          <li><a href="#main">Angela Mikulasev</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li class="nav-info"><a href="#about">About</a></li>
+          <li class="nav-info"><a href="#projects">Projects</a></li>
+          <li class="nav-info"><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+
+
+<!--           <ul>
+            <li><a class="nav-my-name" href="#main">ANGELA MIKULASEV</a></li>
+          </ul> -->
+<!--       <nav>
+        <ul>
+          <li class="nav-my-name"><a href="#main">ANGELA MIKULASEV</a></li>
+          <li class="nav-info"><a href="#about">About</a></li>
+          <li class="nav-info"><a href="#projects">Projects</a></li>
+          <li class="nav-info"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav> -->
     </header>
 
     <section id="main">
@@ -70,7 +100,7 @@
             <form class="form" id="form1" action='mailto:angela.mikulasev@hotmail.com?subject=Hello' enctype='text/plain' method='post' role='form'>
 
               <p class="name">
-                <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+                <input name="name" type="text" class="validate[required,custom[onlyLetter],length[1,100]] feedback-input" placeholder="Name" id="name" />
               </p>
 
               <p class="email">
@@ -78,7 +108,7 @@
               </p>
 
               <p class="text">
-                <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+                <textarea name="text" class="validate[required,length[2,400]] feedback-input" id="comment" placeholder="Comment"></textarea>
               </p>
 
 
