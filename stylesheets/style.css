@@ -38,7 +38,7 @@ img.box {
   padding-top: 75px;
 }
 
-nav {
+/*nav {
   font-family: helvetica, sans-serif;
   font-size: 20px;
   width: 100%;
@@ -46,8 +46,8 @@ nav {
   padding: 10px;
   color: rgb(6, 187, 132);
   text-align: right;
-  background-color: rgba(255,255,255,0.5);
-}
+/*  background-color: rgba(255,255,255,0.5);
+}*/
 
 a:link {
     color: #9D9D9D;
@@ -87,17 +87,23 @@ li a.nav-my-name {
   /*border-bottom: 5px solid #9D9D9D;*/
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   text-align: right;
+  font-size: 20px;
 }
 
-.navbar-default {
+.res-nav {
+    background-color: none;
+    border-color: #000;
+}
+
+/*.navbar-default {
   background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 40%);
   background-color: blue;
 }
 
 .navbar-inverse {
   border-color: none; 
-  background-color: rgba(255,255,255,0.5);
-}
+  background-color: green;
+}*/
 
 ul.nav.navbar-nav {
   position: fixed;
