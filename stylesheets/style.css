@@ -88,6 +88,10 @@ li a.nav-my-name {
   font-size: 20px;
 }
 
+.nav-info a:hover{
+  color:none;
+}
+
 .res-nav {
     background-color: none;
     border-color: #000;
