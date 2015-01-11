@@ -12,6 +12,14 @@ img.box {
   text-align: center;
 }
 
+.skills-image.col-sm-5 {
+  text-align: center;
+}
+
+/*.col-sm-5.col-sm-offset-2 {
+  margin: auto;
+}*/
+
 .projects-display-shop, .projects-display-blog, .projects-display-animal {
   height: 100%;
   width: 450px; 
@@ -22,17 +30,13 @@ img.box {
   padding-left: 88px;
 }
 
-.col-sm-4 p {
-  padding-left: 88px;
-}
-
-.col-sm-4.col-sm-offset-2.col-sm-push-4 {
+/*.col-sm-4.col-sm-offset-2.col-sm-push-4 {
   padding-left: 0;
-}
+}*/
 
-.col-sm-4.col-sm-pull-4 {
+/*.col-sm-4.col-sm-pull-4 {
   float:left;
-}
+}*/
 
 
 #main, #projects, #about {
@@ -45,22 +49,6 @@ img.box {
 #contact {
   padding-top: 75px;
 }
-
-/*a:link {
-    color: #9D9D9D;
-}
-
-a:visited {
-    color: #9D9D9D;
-}
-
-a:hover {
-    color: #9D9D9D;
-}
-
-a:active {
-    color: #9D9D9D;
-}*/
 
 li a.nav-my-name {
   position: fixed;
@@ -91,8 +79,6 @@ li a.nav-my-name {
 .nav-info a:hover{
   color:none;
 }
-
-
 
 .res-nav {
     background-color: none;
@@ -167,10 +153,6 @@ img.projects-display-shop {
   padding: 10px;
   border-radius: 5px;
 }
-
-/*.view-project {
-  margin-left: 85px;
-}*/
 
 #projects div section div p {
   border-bottom: 1px black solid;
